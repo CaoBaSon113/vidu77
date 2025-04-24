@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bo">
+
+    </div>
+    <button onclick="addnode_img();">add images</button>
+    <script>
+        function addnode_img(){
+            var pt=document.createElement('img');
+            pt.src="https://i.pinimg.com/736x/6a/62/86/6a62860618c1fe51c8f221eccf99a794.jpg";
+            document.getElementById('bo').appendChild(pt);
+        }
+    </script>
+</body>
+</html>
